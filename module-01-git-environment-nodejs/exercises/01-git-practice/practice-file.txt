@@ -1,0 +1,13 @@
+# Git Practice File
+
+Follow the instructions in README.md to practice Git commands with this file.
+
+## Instructions
+
+1. Add your name below:
+Name:
+
+2. Add your favorite programming language:
+Favorite Language:
+
+3. Commit your changes with descriptive messages!
