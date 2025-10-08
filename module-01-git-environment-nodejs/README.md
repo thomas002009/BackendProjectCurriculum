@@ -11,7 +11,7 @@ You'll learn how to use Git for version control (tracking changes to your code),
 
 ## Prerequisites
 
-- Basic programming experience (you know C++)
+- Basic programming experience 
 - A computer with internet access
 - Willingness to learn new tools
 
