@@ -1,0 +1,313 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Emma Johnson",
+      "age": 13,
+      "primarySport": "soccer",
+      "level": "intermediate",
+      "enrolledClasses": ["Soccer Fundamentals", "Advanced Soccer Skills"],
+      "contact": {
+        "email": "emma.j@email.com",
+        "phone": "555-0101",
+        "emergencyContact": "555-0102"
+      },
+      "performance": {
+        "attendanceRate": 92,
+        "skillLevel": 4,
+        "gamesPlayed": 12
+      }
+    },
+    {
+      "id": 2,
+      "name": "Liam Chen",
+      "age": 14,
+      "primarySport": "basketball",
+      "level": "beginner",
+      "enrolledClasses": ["Basketball Basics"],
+      "contact": {
+        "email": "liam.chen@email.com",
+        "phone": "555-0103",
+        "emergencyContact": "555-0104"
+      },
+      "performance": {
+        "attendanceRate": 88,
+        "skillLevel": 2,
+        "gamesPlayed": 6
+      }
+    },
+    {
+      "id": 3,
+      "name": "Sophia Martinez",
+      "age": 15,
+      "primarySport": "tennis",
+      "level": "advanced",
+      "enrolledClasses": ["Tennis Pro Training", "Tennis Fundamentals"],
+      "contact": {
+        "email": "sophia.m@email.com",
+        "phone": "555-0105",
+        "emergencyContact": "555-0106"
+      },
+      "performance": {
+        "attendanceRate": 95,
+        "skillLevel": 5,
+        "gamesPlayed": 20
+      }
+    },
+    {
+      "id": 4,
+      "name": "Noah Williams",
+      "age": 13,
+      "primarySport": "basketball",
+      "level": "intermediate",
+      "enrolledClasses": ["Basketball Basics", "Basketball Advanced Drills"],
+      "contact": {
+        "email": "noah.w@email.com",
+        "phone": "555-0107",
+        "emergencyContact": "555-0108"
+      },
+      "performance": {
+        "attendanceRate": 90,
+        "skillLevel": 3,
+        "gamesPlayed": 15
+      }
+    },
+    {
+      "id": 5,
+      "name": "Olivia Davis",
+      "age": 14,
+      "primarySport": "soccer",
+      "level": "beginner",
+      "enrolledClasses": ["Soccer Fundamentals"],
+      "contact": {
+        "email": "olivia.d@email.com",
+        "phone": "555-0109",
+        "emergencyContact": "555-0110"
+      },
+      "performance": {
+        "attendanceRate": 85,
+        "skillLevel": 2,
+        "gamesPlayed": 8
+      }
+    },
+    {
+      "id": 6,
+      "name": "Ethan Brown",
+      "age": 15,
+      "primarySport": "baseball",
+      "level": "intermediate",
+      "enrolledClasses": ["Baseball Skills", "Batting Practice"],
+      "contact": {
+        "email": "ethan.b@email.com",
+        "phone": "555-0111",
+        "emergencyContact": "555-0112"
+      },
+      "performance": {
+        "attendanceRate": 87,
+        "skillLevel": 3,
+        "gamesPlayed": 14
+      }
+    },
+    {
+      "id": 7,
+      "name": "Ava Taylor",
+      "age": 13,
+      "primarySport": "tennis",
+      "level": "beginner",
+      "enrolledClasses": ["Tennis Fundamentals"],
+      "contact": {
+        "email": "ava.t@email.com",
+        "phone": "555-0113",
+        "emergencyContact": "555-0114"
+      },
+      "performance": {
+        "attendanceRate": 91,
+        "skillLevel": 2,
+        "gamesPlayed": 10
+      }
+    },
+    {
+      "id": 8,
+      "name": "Mason Anderson",
+      "age": 14,
+      "primarySport": "basketball",
+      "level": "advanced",
+      "enrolledClasses": ["Basketball Advanced Drills", "Basketball Basics"],
+      "contact": {
+        "email": "mason.a@email.com",
+        "phone": "555-0115",
+        "emergencyContact": "555-0116"
+      },
+      "performance": {
+        "attendanceRate": 94,
+        "skillLevel": 5,
+        "gamesPlayed": 18
+      }
+    }
+  ],
+  "classes": [
+    {
+      "id": 101,
+      "name": "Soccer Fundamentals",
+      "sport": "soccer",
+      "level": "beginner",
+      "instructor": {
+        "name": "Coach Sarah Miller",
+        "experience": 8,
+        "certifications": ["USSF C License", "First Aid"]
+      },
+      "schedule": {
+        "days": ["Monday", "Wednesday"],
+        "time": "4:00 PM - 5:30 PM",
+        "location": "Field A"
+      },
+      "capacity": 15,
+      "enrolled": 2,
+      "price": 150
+    },
+    {
+      "id": 102,
+      "name": "Advanced Soccer Skills",
+      "sport": "soccer",
+      "level": "intermediate",
+      "instructor": {
+        "name": "Coach Sarah Miller",
+        "experience": 8,
+        "certifications": ["USSF C License", "First Aid"]
+      },
+      "schedule": {
+        "days": ["Tuesday", "Thursday"],
+        "time": "4:00 PM - 5:30 PM",
+        "location": "Field B"
+      },
+      "capacity": 12,
+      "enrolled": 1,
+      "price": 175
+    },
+    {
+      "id": 103,
+      "name": "Basketball Basics",
+      "sport": "basketball",
+      "level": "beginner",
+      "instructor": {
+        "name": "Coach Mike Johnson",
+        "experience": 6,
+        "certifications": ["USA Basketball Bronze License", "CPR"]
+      },
+      "schedule": {
+        "days": ["Monday", "Friday"],
+        "time": "5:30 PM - 7:00 PM",
+        "location": "Gym 1"
+      },
+      "capacity": 20,
+      "enrolled": 3,
+      "price": 140
+    },
+    {
+      "id": 104,
+      "name": "Basketball Advanced Drills",
+      "sport": "basketball",
+      "level": "advanced",
+      "instructor": {
+        "name": "Coach Mike Johnson",
+        "experience": 6,
+        "certifications": ["USA Basketball Bronze License", "CPR"]
+      },
+      "schedule": {
+        "days": ["Wednesday", "Saturday"],
+        "time": "6:00 PM - 7:30 PM",
+        "location": "Gym 2"
+      },
+      "capacity": 15,
+      "enrolled": 2,
+      "price": 180
+    },
+    {
+      "id": 105,
+      "name": "Tennis Fundamentals",
+      "sport": "tennis",
+      "level": "beginner",
+      "instructor": {
+        "name": "Coach Jennifer Lee",
+        "experience": 10,
+        "certifications": ["PTR Certified", "USPTA"]
+      },
+      "schedule": {
+        "days": ["Tuesday", "Thursday"],
+        "time": "3:30 PM - 5:00 PM",
+        "location": "Court 1-2"
+      },
+      "capacity": 12,
+      "enrolled": 2,
+      "price": 160
+    },
+    {
+      "id": 106,
+      "name": "Tennis Pro Training",
+      "sport": "tennis",
+      "level": "advanced",
+      "instructor": {
+        "name": "Coach Jennifer Lee",
+        "experience": 10,
+        "certifications": ["PTR Certified", "USPTA"]
+      },
+      "schedule": {
+        "days": ["Wednesday", "Friday"],
+        "time": "5:00 PM - 6:30 PM",
+        "location": "Court 3-4"
+      },
+      "capacity": 8,
+      "enrolled": 1,
+      "price": 200
+    },
+    {
+      "id": 107,
+      "name": "Baseball Skills",
+      "sport": "baseball",
+      "level": "intermediate",
+      "instructor": {
+        "name": "Coach David Rodriguez",
+        "experience": 12,
+        "certifications": ["USA Baseball", "First Aid"]
+      },
+      "schedule": {
+        "days": ["Monday", "Thursday"],
+        "time": "4:30 PM - 6:00 PM",
+        "location": "Diamond 1"
+      },
+      "capacity": 18,
+      "enrolled": 1,
+      "price": 155
+    },
+    {
+      "id": 108,
+      "name": "Batting Practice",
+      "sport": "baseball",
+      "level": "all-levels",
+      "instructor": {
+        "name": "Coach David Rodriguez",
+        "experience": 12,
+        "certifications": ["USA Baseball", "First Aid"]
+      },
+      "schedule": {
+        "days": ["Saturday"],
+        "time": "10:00 AM - 12:00 PM",
+        "location": "Batting Cages"
+      },
+      "capacity": 10,
+      "enrolled": 1,
+      "price": 120
+    }
+  ],
+  "facility": {
+    "name": "Champions Sports Academy",
+    "address": "123 Athletic Way, Sportsville, ST 12345",
+    "phone": "555-SPORT-1",
+    "email": "info@championsacademy.com",
+    "hours": {
+      "weekdays": "3:00 PM - 9:00 PM",
+      "saturday": "9:00 AM - 6:00 PM",
+      "sunday": "Closed"
+    }
+  }
+}
